@@ -1,0 +1,52 @@
+/* Variables */
+
+:root {
+    --gradient: linear-gradient(90deg, #ffa399 50%, #ff4d97 100%);
+    --clr-pale-blue: #dddbff;
+    --clr-grayish-blue: #848794;
+    --clr-dark-blue: #1d2c67;
+    --clr-darkest-blue: #0c122c;
+    --ff: 'Raleway', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fs-small: 16px;
+    --fs-big: 32px;
+}
+
+/* General Styling */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 30px;
+    grid-template-areas: 
+    ". . ."
+    ". m ."
+    ". . .";
+    background-color: var(--clr-darkest-blue);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+/* Main styling */
+
+.main {
+    grid-area: m;
+    display: flex;
+    justify-content: space-between;
+    width: clamp(300px, 90vw, 1000px);
+}
