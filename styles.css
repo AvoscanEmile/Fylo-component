@@ -200,7 +200,6 @@ body {
 
     .links {
         width: 100%;
-        align-items: center;
     }
 
     .storage {
@@ -231,11 +230,5 @@ body {
 
     .storage__used {
         text-align: center;
-    }
-}
-
-@media (max-width: 450px) {
-    .links {
-        align-items: flex-start;
     }
 }
