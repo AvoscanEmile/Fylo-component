@@ -15,20 +15,26 @@
     <div class="links">
       <img src="images/logo.svg" alt="Fylo's logo" class="links__logo">
       <div class="links__container">
-        <img src="images/icon-document.svg" alt="An image of a document" class="links__document">
-        <img src="images/icon-folder.svg" alt="An image of a folder" class="links__folder">
-        <img src="images/icon-upload.svg" alt="An image of upload" class="links__upload">
+        <div class="links__link-container">
+          <img src="images/icon-document.svg" alt="An image of a document" class="links__link">
+        </div>
+        <div class="links__link-container">
+          <img src="images/icon-folder.svg" alt="An image of a folder" class="links__link">
+        </div>
+        <div class="links__link-container">
+          <img src="images/icon-upload.svg" alt="An image of upload" class="links__link">   
+        </div>
       </div>
     </div>
     <div class="storage">
       <div class="storage__left-container">
         <div class="storage__left">
-          <p class="storage__GB-left">185 <span>GB Left</span></p>
+          <p class="storage__GB-left">185 <span class="storage__first-span">GB Left</span></p>
         </div>
         <div class="storage__triangle"></div>  
       </div>
       <div class="storage__progress-container">
-        <p class="storage__used">You’ve used 815 GB of your storage</p>
+        <p class="storage__used">You’ve used <span class="storage__second-span">815 GB</span> of your storage</p>
         <progress value="815" max="1000" class="storage__progress-bar"></progress>
         <div class="storage__minmax">
           <p class="storage__min">0 GB</p>
