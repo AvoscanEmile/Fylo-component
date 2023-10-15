@@ -139,9 +139,9 @@ body {
     font-weight: var(--fw-bold);
 }
 
-.storage__progress-bar {
+.storage__progress-flex {
     width: 100%;
-    padding: 3px;
+    padding: 4px;
     margin: 1em 0 .5em 0;
     background-color: var(--clr-darkest-blue);
     border: none;
@@ -149,24 +149,22 @@ body {
     overflow: hidden;  
 }
 
-.storage__progress-bar::-webkit-progress-bar {
-    width: 100%;
-    padding: 3px;
-    margin: 1em 0 .5em 0;
-    background-color: var(--clr-darkest-blue);
-    border: none;
-    border-radius: 50px; 
-    overflow: hidden;
+.storage__progress-bar {
+    background: var(--gradient);
+    height: 18px;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.storage__progress-bar::-webkit-progress-value {
-    background: var(--gradient);
-    border-radius: 50px;
-}
-
-.storage__progress-bar::-moz-progress-bar {
-    background: var(--gradient);
-    border-radius: 50px;
+.storage__progress-dot {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 4px;
 }
 
 .storage__minmax {
