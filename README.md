@@ -5,7 +5,7 @@ If you want to see this repository live you can do it here: https://avoscanemile
 
 **I do not own this design. If you've any questions related to it you should clarify them in the Frontend Mentor website.** 
 ## CSS features used in this project:
-**Grid:** It was necessary to use CSS grid for the section where the amount of space left is described. CSS grid is pretty useful for this "overlapping" layouts. 
+**Grid:** It was necessary to use CSS grid for the section where the amount of space left is described. CSS grid is pretty useful for this "overlapping" layouts.      
 **Flexbox:** I mainly use CSS Flexbox for my projects since it's simpler and quicker to use than CSS Grid. The only exception being really problematic situations where you need to force two objects on top of eachother, or really complex grids with multiple aspect ratios.  
 **Variables:** CSS Variables make it way simpler to work with colors, font weights, font sizes, font familys, and shadows. I completely recommend to anyone learning CSS to master them.    
 **Functions:** I've used the clamp() function in projects before this, but never the calc(), even less a clamp() inside a calc(). This combination was used to calculate the exact amount of negative positioning needed in the background so the top of the background-img always stayed at the center of the screen, no matter the vh. Simply changing the size of the background-img didn't fit my needs.     
